@@ -11,7 +11,7 @@ if __FILE__ == $0
 		puts "Max = #{stat.max}" 
 		exit
 	when "min"
-		puts "Max = #{stat.min}"
+		puts "Min = #{stat.min}"
 		exit
 	when "aver"
 		aver = stat.reduce(:+) / stat.size.to_f 
